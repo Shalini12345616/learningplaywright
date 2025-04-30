@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
-import swaglogindata from"../testdata/swaplogin.json"
+import swaglogindata from"../../testdata/swaplogin.json"
 
 test('Verify login with standard username', async ({ page }) => {
   await page.goto('https://www.saucedemo.com/v1/index.html');
